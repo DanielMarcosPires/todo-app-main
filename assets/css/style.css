@@ -1,0 +1,66 @@
+.card{
+    margin: 5em auto;
+    width: 500px;
+}
+header{
+    margin: 8px 0;
+}
+.margin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+i{
+    font-size: 30px;
+}
+.input{
+    background: hsl(235, 24%, 19%);
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    width: 100%;
+}
+.menu{
+    background: hsl(235, 24%, 19%);
+    border-radius: 5px;
+    padding: 1em 0;
+    margin: 1em 0;
+}
+li{
+    border-bottom: solid 1px #fff;
+    padding: 8px 1em;
+}
+input{
+    color: #fff;
+    padding: 1em;
+    width: 100%;
+}
+.mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(red,blue);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+input[type="radio"]{
+    appearance: hidden;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+.menuFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonMenu{
+    background: #ffffff55;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+}
